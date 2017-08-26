@@ -1,5 +1,6 @@
 {{ if not (eq (len .Site.Pages) 0) }}
   <div class="archiveslist">
+    <h4>アーカイブ</h4>
     <p class="asidetitle">{{ .Site.Params.Strings.Archive }}</p>
     <ul class="archive-list">
       {{ range $value := (where .Site.RegularPages "Type" "post").GroupByDate "2006年01月" }}

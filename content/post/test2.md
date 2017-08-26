@@ -1,9 +1,9 @@
 ---
-title: "Test"
-date: 2017-08-24T01:38:36+09:00
+title: "Test2"
+date: 2017-07-24T01:38:36+09:00
 draft: true
 categories : [テスト]
-tags : [ post, test ]
+tags : [ "post", "" ]
 image : ""
 ---
 
