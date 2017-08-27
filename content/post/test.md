@@ -1,13 +1,17 @@
 ---
-title: "Test"
+title: "マークダウンテスト"
 date: 2017-08-24T01:38:36+09:00
-draft: true
+draft: false
 categories : [テスト]
 tags : [ post, test ]
-image : ""
 ---
 
-{{< youtube 09jf3ow9jfw >}}
+マークダウン記法については下記サイトを参考  
+[Markdown記法 サンプル集](http://qiita.com/tbpgr/items/989c6badefff69377da7)  
+
+{{< youtube yFtOfwlGWOA >}}
+{{< nico sm18653356 >}}
+{{< img src="/img/pacman.jpg" title="PACMAN" >}}
 
 ## 見出し
 

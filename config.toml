@@ -1,4 +1,14 @@
-baseURL = "http://example.org/"
+baseURL = "https://ukki722.github.io/HugoTest/"
 languageCode = "ja-JP"
 title = "My New Hugo Site"
 hasCJKLanguage = true
+canonifyurls = true
+
+[Params]
+subtitle = "Welcome Hugo World!"
+author = "ウッキー"
+introduce = "Hello world. 長い文章もなんのその。HugoとGithubを使って色々しているところです"
+
+twitter ="vicvic4106"
+github ="ukki722"
+

@@ -1,8 +1,10 @@
 <div id="asidepart">
 <aside class="clearfix">
+  {{ partial "widgets/author" . }}
+  {{ partial "widgets/rss" . }}
+  {{ partial "widgets/twitter" . }}
   {{ partial "widgets/categories" . }}
   {{ partial "widgets/tags" . }}
   {{ partial "widgets/archive" . }}
-  {{ partial "widgets/rss" . }}
 </aside>
 </div>

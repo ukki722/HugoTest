@@ -1,0 +1,78 @@
+/*------------------------------------------*/
+/* カスタムCSS								*/
+/*------------------------------------------*/
+
+div.video-player{
+	text-align: center;
+}
+
+/*------------------------------------------*/
+/* サイドバー								*/
+/*------------------------------------------*/
+
+/*	自己紹介	*/
+p.introduce{
+	padding:0 .5em;
+	font-size:1em;
+}
+h4.AuthorName{
+	padding:.5em 0em;
+}
+
+.AuthorArea{
+	margin:1em 0 0;
+	
+}
+@media only screen and (min-width: 768px){
+	.AuthorArea{
+	width:45%;
+	float:left;
+	margin:0 5% 0 0
+}}
+
+@media only screen and (min-width: 1024px){
+	.AuthorArea{
+	width:100%;
+	float:none;
+	margin:1em 0 0
+}}
+
+/*	Twitter誘導	*/
+.twitterpart{
+	background:#1da1f2;
+	width:100%;
+	
+}
+@media only screen and (min-width: 768px){
+	.twitterpart{
+	float:left;
+	width:45%;
+	margin:0 5% 0 0
+}
+
+}@media only screen and (min-width: 1024px){
+	.twitterpart{
+	width:100%;
+	float:none;
+	margin:.5em 0 0
+}
+
+}.twitterpart a{
+	color:#fff;
+	display:block;
+	padding:.625em 0;
+	text-align:center;
+	
+}
+.twitterpart a:hover{
+	color:#1da1f2;
+	background:#fafafa
+}
+.twitterpart a::before{
+	font-family:"FontAwesome";
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	padding-right:.5em;
+	content:"\f099"
+}
+

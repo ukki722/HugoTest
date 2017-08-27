@@ -3,11 +3,10 @@ title: "Test2"
 date: 2017-07-24T01:38:36+09:00
 draft: true
 categories : [テスト]
-tags : [ "post", "" ]
-image : ""
+tags : [ post, ]
 ---
 
-{{< youtube 09jf3ow9jfw >}}
+{{< youtube yFtOfwlGWOA >}}
 
 ## 見出し
 
