@@ -3,6 +3,7 @@ languageCode = "ja-JP"
 title = "My New Hugo Site"
 hasCJKLanguage = true
 canonifyurls = true
+publishdir = "public"
 
 [Params]
 subtitle = "Welcome Hugo World!"
