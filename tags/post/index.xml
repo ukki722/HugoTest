@@ -20,14 +20,5 @@
       <description>マークダウン記法については下記サイトを参考 Markdown記法 サンプル集 PACMAN 見出し 項目 小項目 番号付き 番号付き 番号付き 番号付き 引用 引用 二重引用 二</description>
     </item>
     
-    <item>
-      <title>Test2</title>
-      <link>https://ukki722.github.io/HugoTest/post/test2/</link>
-      <pubDate>Mon, 24 Jul 2017 01:38:36 +0900</pubDate>
-      
-      <guid>https://ukki722.github.io/HugoTest/post/test2/</guid>
-      <description>見出し 項目 小項目 番号付き 番号付き 番号付き 番号付き 引用 引用 二重引用 二重引用 pre記法 hogehoge pre記法(GFM) pre記法(GFM) .li{ font-size:16px; list-style:none; color:#000; } こっち</description>
-    </item>
-    
   </channel>
 </rss>
