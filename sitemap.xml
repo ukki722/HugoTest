@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ukki722.github.io/HugoTest/post/deploytest2/</loc>
+    <lastmod>2017-08-30T02:15:14+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ukki722.github.io/HugoTest/post/newposttest/</loc>
     <lastmod>2017-08-27T22:19:43+09:00</lastmod>
   </url>
@@ -24,7 +29,7 @@
   
   <url>
     <loc>https://ukki722.github.io/HugoTest/</loc>
-    <lastmod>2017-08-27T22:19:43+09:00</lastmod>
+    <lastmod>2017-08-30T02:15:14+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,7 +41,7 @@
   
   <url>
     <loc>https://ukki722.github.io/HugoTest/post/</loc>
-    <lastmod>2017-08-27T22:19:43+09:00</lastmod>
+    <lastmod>2017-08-30T02:15:14+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -48,13 +53,19 @@
   
   <url>
     <loc>https://ukki722.github.io/HugoTest/tags/test/</loc>
-    <lastmod>2017-08-27T22:19:43+09:00</lastmod>
+    <lastmod>2017-08-30T02:15:14+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ukki722.github.io/HugoTest/categories/%E3%83%86%E3%82%B9%E3%83%88/</loc>
-    <lastmod>2017-08-27T22:19:43+09:00</lastmod>
+    <lastmod>2017-08-30T02:15:14+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ukki722.github.io/HugoTest/tags/%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4/</loc>
+    <lastmod>2017-08-30T02:15:14+09:00</lastmod>
     <priority>0</priority>
   </url>
   
