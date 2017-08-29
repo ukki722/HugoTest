@@ -2,20 +2,20 @@
 <html lang="ja-JP">
 <head>
   <meta charset="UTF-8">
-  <title>デプロイ - My New Hugo Site</title>
+  <title>DeployTest3 - My New Hugo Site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="デプロイ">
+  <meta name="description" content="シェルスクリプトテスト用投稿">
   
-  <meta itemprop="name" content="デプロイ - My New Hugo Site">
-  <meta itemprop="description" content="デプロイ">
+  <meta itemprop="name" content="DeployTest3 - My New Hugo Site">
+  <meta itemprop="description" content="シェルスクリプトテスト用投稿">
   <meta itemprop="image" content="https://ukki722.github.io/HugoTest/img/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@vicvic4106" />
-  <meta name="twitter:title" content="デプロイ - My New Hugo Site" />
+  <meta name="twitter:title" content="DeployTest3 - My New Hugo Site" />
   
   <meta name="twitter:description" content="">
-  <link rel="alternate" href="https://ukki722.github.io/HugoTest/feed.xml" title="My New Hugo Site" type="application/rss+xml"/>
+  
   <link rel="shortcut icon" href="https://ukki722.github.io/HugoTest/img/favicon.ico"/>
   <link rel="apple-touch-icon" href="https://ukki722.github.io/HugoTest/apple-touch-icon.png" />
   <link rel="apple-touch-icon-precomposed" href="https://ukki722.github.io/HugoTest/apple-touch-icon.png" />
@@ -38,30 +38,57 @@
 
   </header>
   <div id="container">
-    <div id="main">
-      
-      <h2 id="2017-08">2017-08</h2>
-      
-      <section class="post" itemscope itemprop="blogPost">
-    <a href="https://ukki722.github.io/HugoTest/post/deploytest3/" title="DeployTest3" itemprop="url">
-    <h1 itemprop="name">DeployTest3</h1>
-    <time datetime="2017-08-30 02:39:41 &#43;0900 JST" itemprop="datePublished">2017-08-30 02:39</time>
-    <p itemprop="description">シェルスクリプトテスト用投稿</p>
-  </a>
-</section>
+    <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody">
+    <header class="article-info clearfix">
+  <h1 itemprop="name">
+      <a href="https://ukki722.github.io/HugoTest/post/deploytest3/" title="DeployTest3" itemprop="url">DeployTest3</a>
+  </h1>
+  <p class="article-time">
+    <time datetime="2017-08-30 02:39:41 &#43;0900 JST" itemprop="datePublished">2017年08月30日</time>
+  </p>
+</header>
 
-      
-      <section class="post" itemscope itemprop="blogPost">
-    <a href="https://ukki722.github.io/HugoTest/post/deploytest2/" title="DeployTest2" itemprop="url">
-    <h1 itemprop="name">DeployTest2</h1>
-    <time datetime="2017-08-30 02:15:14 &#43;0900 JST" itemprop="datePublished">2017-08-30 02:15</time>
-    <p itemprop="description">デプロイできたぜーいうっひょーい！</p>
-  </a>
-</section>
+	<div class="article-content">
+    
+    <p>シェルスクリプトテスト用投稿</p>
 
-      
-      
+	</div>
+  <footer class="article-footer clearfix">
+  
+
+<div class="article-tags">
+  <span></span>
+  
+  <a href="https://ukki722.github.io/HugoTest/tags/%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4">デプロイ</a>
+  
+</div>
+
+
+
+
+<div class="article-categories">
+  <span></span>
+  
+  <a class="article-category-link" href="https://ukki722.github.io/HugoTest/categories/%E3%83%86%E3%82%B9%E3%83%88">テスト</a>
+  
+</div>
+
+
+
+  <div class="article-share" id="share">
+    <div data-url="https://ukki722.github.io/HugoTest/post/deploytest3/" data-title="DeployTest3" data-tsina="" class="share clearfix">
     </div>
+  </div>
+</footer>
+
+	</article>
+  
+
+
+
+</div>
+
     <div id="asidepart">
 <aside class="clearfix">
   <div class="AuthorArea">
@@ -206,6 +233,38 @@ $(document).ready(function(){
       $(this).submit();
     }
   });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
 });
 </script>
 
