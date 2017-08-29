@@ -1,5 +1,6 @@
 
-# cmdではなくGit Bashから呼び出さないと失敗する模様？
+# Git bashを起動した状態で当ファイルを起動すると失敗する模様
+# Git bashを閉じるか、Git bash上での実行が必要
 
 # Build the project.
 hugo
