@@ -1,8 +1,10 @@
 baseURL = "https://ukki722.github.io/HugoTest/"
-languageCode = "ja-JP"
+languageCode = "ja"
 title = "My New Hugo Site"
 hasCJKLanguage = true
 canonifyurls = true
+contentdir = "content"
+layoutdir = "layouts"
 publishdir = "public"
 
 [Params]

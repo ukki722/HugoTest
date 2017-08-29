@@ -1,7 +1,7 @@
 ---
 title: "Test2"
 date: 2017-07-24T01:38:36+09:00
-draft: true
+draft: false
 categories : [テスト]
 tags : [ post, ]
 ---
