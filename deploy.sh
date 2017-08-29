@@ -1,21 +1,21 @@
 
-#!binbash
-
-echo -e 033[0;32mDeploying updates to Github...033[0m
+# cmdではなくGit Bashから呼び出さないと失敗する模様？
 
 # Build the project.
 hugo
 
-# Add changes to git.
+# Change Directory
+cd public/
+
+# Add all changes to git.
 git add -A
 
 # Commit changes.
-msg=rebuilding site `date`
-if [ $# -eq 1 ]
-  then msg=$1
-fi
-git commit -m $msg
+today=$(date "+%Y/%m/%d %T")
+git commit -m "deploying site ${today}"
 
 # Push source and build repos.
-git push origin master
-git subtree push --prefix=public git@github.com:ukki722/HugoTest.git gh-pages
+git push origin gh-pages
+
+# Back to master branch.
+cd ..
