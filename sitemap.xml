@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ukki722.github.io/HugoTest/post/deploytestfrommac/</loc>
-    <lastmod>2017-09-01T00:43:19+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ukki722.github.io/HugoTest/post/test/</loc>
     <lastmod>2017-08-24T01:38:36+09:00</lastmod>
   </url>
@@ -18,14 +13,8 @@
   </url>
   
   <url>
-    <loc>https://ukki722.github.io/HugoTest/tags/mac/</loc>
-    <lastmod>2017-09-01T00:43:19+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ukki722.github.io/HugoTest/</loc>
-    <lastmod>2017-09-01T00:43:19+09:00</lastmod>
+    <lastmod>2017-08-24T01:38:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -37,25 +26,25 @@
   
   <url>
     <loc>https://ukki722.github.io/HugoTest/post/</loc>
-    <lastmod>2017-09-01T00:43:19+09:00</lastmod>
+    <lastmod>2017-08-24T01:38:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ukki722.github.io/HugoTest/tags/</loc>
-    <lastmod>2017-09-01T00:43:19+09:00</lastmod>
+    <lastmod>2017-08-24T01:38:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ukki722.github.io/HugoTest/tags/test/</loc>
-    <lastmod>2017-09-01T00:43:19+09:00</lastmod>
+    <lastmod>2017-08-24T01:38:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ukki722.github.io/HugoTest/categories/%E3%83%86%E3%82%B9%E3%83%88/</loc>
-    <lastmod>2017-09-01T00:43:19+09:00</lastmod>
+    <lastmod>2017-08-24T01:38:36+09:00</lastmod>
     <priority>0</priority>
   </url>
   

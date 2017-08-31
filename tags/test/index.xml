@@ -6,19 +6,10 @@
     <description>Recent content in Test on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 Sep 2017 00:43:19 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 24 Aug 2017 01:38:36 +0900</lastBuildDate>
     
 	<atom:link href="https://ukki722.github.io/HugoTest/tags/test/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>DeployTestFromMac</title>
-      <link>https://ukki722.github.io/HugoTest/post/deploytestfrommac/</link>
-      <pubDate>Fri, 01 Sep 2017 00:43:19 +0900</pubDate>
-      
-      <guid>https://ukki722.github.io/HugoTest/post/deploytestfrommac/</guid>
-      <description>マックからのデプロイ再挑戦</description>
-    </item>
     
     <item>
       <title>マークダウンテスト</title>
