@@ -7,15 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 02 Sep 2017 18:47:56 +0900</lastBuildDate>
-    
-	<atom:link href="https://ukki722.github.io/HugoTest/tags/test/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/tags/test/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Startinghugo</title>
       <link>https://ukki722.github.io/HugoTest/post/startinghugo/</link>
       <pubDate>Sat, 02 Sep 2017 18:47:56 +0900</pubDate>
-      
       <guid>https://ukki722.github.io/HugoTest/post/startinghugo/</guid>
       <description>複数端末からのデプロイテスト中</description>
     </item>
@@ -24,10 +21,10 @@
       <title>マークダウンテスト</title>
       <link>https://ukki722.github.io/HugoTest/post/test/</link>
       <pubDate>Thu, 24 Aug 2017 01:38:36 +0900</pubDate>
-      
       <guid>https://ukki722.github.io/HugoTest/post/test/</guid>
       <description>マークダウン記法については下記サイトを参考 Markdown記法 サンプル集 PACMAN 見出し 項目 小項目 番号付き 番号付き 番号付き 番号付き 引用 引用 二重引用 二</description>
     </item>
     
   </channel>
 </rss>
+ 
